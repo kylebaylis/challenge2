@@ -67,6 +67,47 @@ header nav ul li {
 
 .subtitle h2 {
     text-align: right;
-    padding: 80px 80px 40px 80px;
+    padding: 150px 80px 40px 80px;
     color: white;
+}
+
+/* about me */
+
+.aboutme {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.leftside {
+    flex: 1;
+    max-width: 20%;
+    border-right: 1px solid navy;
+}
+
+.leftside h3 {
+    padding: 10px;
+    text-align: center;
+    padding-right: 30px;
+    color: navy;
+}
+
+.rightside {
+    flex: 1;
+    padding: 10px;
+}
+
+
+/* footer */
+
+footer {
+    background-color: grey;
+    margin-top: 10px;
+}
+
+footer h4 {
+    padding: 10px;
 }
