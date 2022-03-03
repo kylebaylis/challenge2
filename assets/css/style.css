@@ -82,6 +82,32 @@ header nav ul li {
     text-align: center;
 }
 
+.work {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.contact {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.resume {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    text-align: center;
+}
 .leftside {
     flex: 1;
     max-width: 20%;
@@ -91,8 +117,9 @@ header nav ul li {
 .leftside h3 {
     padding: 10px;
     text-align: center;
-    padding-right: 30px;
+    padding: 10px;
     color: navy;
+    font-size: 28px;
 }
 
 .rightside {
