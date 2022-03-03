@@ -1,3 +1,5 @@
+/* for whole webpage */
+
 * {
     margin: 0;
     padding: 0;
@@ -8,19 +10,23 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* links */
+
 a:visited {
     text-decoration: none;
 }
 
+/* header and nav */
+
 header {
-    background-color: #91A3B0;
+    background-color: grey;
     display: flex;
     justify-content: space-between;
 }
 
 header h1 {
-    color: darkblue;
-    padding: 20px;
+    color: #6699CC;
+    padding: 20px 20px 20px 70px;
     font-weight: bold;
     background-color: lightblue;
     border-bottom-right-radius: 5px;
@@ -30,8 +36,8 @@ header h1 {
 }
 
 header a {
-    color: darkblue;
-    padding: 20px;
+    color: navy;
+    padding: 10px;
     font-weight: bold;
     text-decoration: none;
 }
@@ -41,6 +47,7 @@ header nav ul {
     flex-wrap: wrap;
     justify-content: space-between;
     list-style: none;
+    margin-right: 80px;
 }
 
 header nav ul li {
@@ -48,4 +55,18 @@ header nav ul li {
     font-weight: bold;
     text-decoration: underline 3px;
     text-underline-offset: 3px;
+}
+
+/* hero image and subtitle */
+
+.hero {
+    background-image: url(../images/background.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.subtitle h2 {
+    text-align: right;
+    padding: 80px 80px 40px 80px;
+    color: white;
 }
