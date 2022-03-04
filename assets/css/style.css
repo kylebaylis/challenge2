@@ -127,6 +127,12 @@ header nav ul li {
     padding: 10px;
 }
 
+.rightside a {
+    font-weight: bold;
+    text-decoration: none;
+    color: navy;
+}
+
 .runbuddy {
     max-width: 100%;
     border: 3px solid grey;
