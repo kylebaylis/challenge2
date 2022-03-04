@@ -10,6 +10,11 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+p {
+    color: navy;
+    text-align: left;
+}
+
 /* links */
 
 a:visited {
@@ -22,6 +27,12 @@ header {
     background-color: grey;
     display: flex;
     justify-content: space-between;
+}
+
+.egg {
+    width: 25%;
+    height: auto;
+    vertical-align: middle;
 }
 
 header h1 {
@@ -71,16 +82,44 @@ header nav ul li {
     color: white;
 }
 
-/* about me */
+/* general styling for main body of webpage */
+
+.leftside {
+    flex: 1;
+    max-width: 10%;
+    border-right: 2px solid navy;
+}
+
+.leftside h3 {
+    text-align: left;
+    color: navy;
+    font-size: 28px;
+}
+
+.rightside {
+    flex: 1;
+    padding-left: 20px;
+}
+
+.rightside a {
+    font-weight: bold;
+    text-decoration: none;
+    color: navy;
+    font-size: 20px;
+}
+
+/* about me section */
 
 .aboutme {
-    width: 90%;
+    max-width: 90%;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     padding-top: 20px;
     text-align: center;
 }
+
+/* work section */
 
 .work {
     width: 90%;
@@ -89,48 +128,6 @@ header nav ul li {
     flex-wrap: wrap;
     padding-top: 20px;
     text-align: center;
-}
-
-.contact {
-    width: 90%;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    padding-top: 20px;
-    text-align: center;
-}
-
-.resume {
-    width: 90%;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    padding-top: 20px;
-    text-align: center;
-}
-.leftside {
-    flex: 1;
-    max-width: 20%;
-    border-right: 1px solid navy;
-}
-
-.leftside h3 {
-    padding: 10px;
-    text-align: center;
-    padding: 10px;
-    color: navy;
-    font-size: 28px;
-}
-
-.rightside {
-    flex: 1;
-    padding: 10px;
-}
-
-.rightside a {
-    font-weight: bold;
-    text-decoration: none;
-    color: navy;
 }
 
 .runbuddy {
@@ -181,6 +178,27 @@ header nav ul li {
     border-radius: 3px;
     padding-bottom: 5px;
 }
+ /* contact section */
+
+.contact {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    text-align: center;
+}
+
+/* resume seciton */
+
+.resume {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    text-align: center;
+}
 
 /* footer */
 
@@ -193,4 +211,5 @@ footer {
 
 footer h4 {
     padding: 10px;
+    color: navy;
 }
