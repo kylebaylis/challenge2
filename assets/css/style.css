@@ -66,6 +66,7 @@ header nav ul li {
     font-weight: bold;
     text-decoration: underline 3px;
     text-underline-offset: 3px;
+    font-size: 20px;
 }
 
 /* hero image and subtitle */
