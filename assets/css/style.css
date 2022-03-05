@@ -215,3 +215,46 @@ footer h4 {
     padding: 10px;
     color: navy;
 }
+
+/* Media queries styling */
+
+@media screen {
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    header h1 {
+        font-size: 45px;
+        margin: 20px;
+        padding: 20px;
+        border-radius: 5px;;
+    }
+
+    header nav ul {
+        margin: 20px;
+        padding: 0 40px 0 40px;
+    }
+
+    header nav ul li {
+        padding: 10px;
+        font-size: 30px;
+    }
+    
+    .leftside {
+        max-width: 25%;
+    }
+
+    .leftside h3 {
+        font-size: 20px;
+        text-align: left;
+    }
+
+    .rightside {
+        max-width: 75%;
+    }
+
+    p {
+        font-size: 18px;
+    }
+}
