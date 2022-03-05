@@ -37,13 +37,13 @@ header {
 
 header h1 {
     color: #6699CC;
-    padding: 20px 20px 20px 70px;
+    padding: 10px 10px 10px 70px;
     font-weight: bold;
     background-color: lightblue;
     border-bottom-right-radius: 5px;
     border-top-right-radius: 5px;
-    margin-bottom: 10px;
-    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
 }
 
 header a {
@@ -62,7 +62,7 @@ header nav ul {
 }
 
 header nav ul li {
-    padding: 60px 10px 20px 10px;
+    padding: 50px 10px 10px 10px;
     font-weight: bold;
     text-decoration: underline 3px;
     text-underline-offset: 3px;
@@ -79,7 +79,7 @@ header nav ul li {
 
 .subtitle h2 {
     text-align: right;
-    padding: 150px 80px 40px 80px;
+    padding: 175px 80px 40px 80px;
     color: white;
 }
 
